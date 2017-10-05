@@ -1,11 +1,22 @@
 body {
 	background: url('images/Blue_gaussian_blur_1920x1200.jpg'); 
+
 }
 
 h1, h2, h3, p, footer {
 	color: white;
 }
 
+footer {
+	text-align: center;
+	background: black;
+	height: 45px;
+	padding:10px;
+}
+
+.container {
+	height: 800px;
+}
 
 .socialpanel {
 	height: 345px;
@@ -25,11 +36,15 @@ h1, h2, h3, p, footer {
 	color: white;
 }
 
-#thumb2 {
+//*#thumb2 {
 	color: white;
-	text-align: center;
+	font-family: 'Arial', Times, Times New Roman, serif;
+	font-size: 18px
+	padding-bottom: 20px;
+	margin-left:25px;
 
 }
+*//
 
 .img-circle {
 	box-shadow: 0px -1px 18px black;
